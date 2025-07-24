@@ -1,13 +1,12 @@
 package Generic_methods;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -22,6 +21,10 @@ public class Base {
 		  //System.out.println("Launching browser: " + browserName);
 		 if (browserName.equalsIgnoreCase("chrome")) {
 			 log.debug("Launch the Chrome browser");
+			 ChromeOptions options = new ChromeOptions();
+			 options.addArguments("--headless=new");
+			 options.addArguments("--no-sandbox");
+			 options.addArguments("--disable-dev-shm-usage");
 			 WebDriverManager.chromedriver().setup();
 	            driver = new ChromeDriver();
 	        } 
