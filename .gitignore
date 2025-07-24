@@ -1,0 +1,21 @@
+# Ignore Maven build directory
+target/
+test-output/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# Logs and reports
+logs/
+screenshots/
+reports/
+
+# Git system
+*.log
+*.tmp
+.DS_Store
+
+# Ignore OS files
+Thumbs.db

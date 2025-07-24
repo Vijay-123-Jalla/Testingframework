@@ -1,0 +1,9 @@
+Hooks\BaseTest.class
+NewTest.class
+Pages\Loginpage.class
+Runner\Loginrunner.class
+Pages\PasswordResetpage.class
+Hooks\Hooks.class
+Runner\ResetpasswordRunner.class
+Stepdefinitions\Loginstepdefinitio.class
+Stepdefinitions\ResetStepdefinition.class

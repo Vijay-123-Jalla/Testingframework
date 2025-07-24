@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-24T13:46:12 IST" name="Suite" finished-at="2025-07-24T13:46:49 IST" duration-ms="37907">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.ResetpasswordRunner@44c79f32]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-24T13:46:12 IST" name="Cucumber Test" finished-at="2025-07-24T13:46:49 IST" duration-ms="37907">
+      <class name="Hooks.BaseTest">
+        <test-method is-config="true" signature="setupReports()[pri:0, instance:Hooks.BaseTest@6256ac4f]" started-at="2025-07-24T13:46:11 IST" name="setupReports" finished-at="2025-07-24T13:46:12 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReports -->
+        <test-method is-config="true" signature="endReports()[pri:0, instance:Hooks.BaseTest@6256ac4f]" started-at="2025-07-24T13:46:49 IST" name="endReports" finished-at="2025-07-24T13:46:50 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReports -->
+      </class> <!-- Hooks.BaseTest -->
+      <class name="Runner.ResetpasswordRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.ResetpasswordRunner@44c79f32]" started-at="2025-07-24T13:46:12 IST" name="setUpClass" finished-at="2025-07-24T13:46:12 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.ResetpasswordRunner@44c79f32]" started-at="2025-07-24T13:46:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-24T13:46:30 IST" duration-ms="17737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Resetting the password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forgotten password]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.ResetpasswordRunner@44c79f32]" started-at="2025-07-24T13:46:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-24T13:46:42 IST" duration-ms="12062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remember the password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forgotten password]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.ResetpasswordRunner@44c79f32]" started-at="2025-07-24T13:46:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-24T13:46:49 IST" duration-ms="7761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Not entered any details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forgotten password]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.ResetpasswordRunner@44c79f32]" started-at="2025-07-24T13:46:49 IST" name="tearDownClass" finished-at="2025-07-24T13:46:49 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.ResetpasswordRunner -->
+    </test> <!-- Cucumber Test -->
+  </suite> <!-- Suite -->
+</testng-results>

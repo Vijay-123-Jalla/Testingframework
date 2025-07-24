@@ -1,0 +1,31 @@
+17:16:58.052 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:16:58.059 [main] DEBUG java.lang.Class - User able to open the browser
+17:16:58.059 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:16:58.059 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:16:58.059 [main] DEBUG java.lang.Class - User able to enter the url
+17:17:07.371 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:07.371 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:17:07.371 [main] DEBUG java.lang.Class - Inputfield has to display
+17:17:09.590 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:09.590 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:17:09.590 [main] DEBUG java.lang.Class - Passwordfield has to display
+17:17:09.678 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:09.678 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:17:09.678 [main] DEBUG java.lang.Class - Submit button has to dispaly
+17:17:09.726 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:09.726 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:17:09.728 [main] DEBUG java.lang.Class - User able to enter the usernameAdmin1
+17:17:09.748 [main] DEBUG Generic_methods.GenericKeywords - enterText method of GenericKeywords
+17:17:09.927 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:09.929 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:17:09.929 [main] DEBUG java.lang.Class - User able to enter the passwordadmin12
+17:17:09.952 [main] DEBUG Generic_methods.GenericKeywords - enterText method of GenericKeywords
+17:17:10.117 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:10.117 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:17:10.117 [main] DEBUG java.lang.Class - User able to click on button
+17:17:10.117 [main] DEBUG Generic_methods.GenericKeywords - clickElement method of GenericKeywords
+17:17:10.231 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:10.231 [main] DEBUG Hooks.Hooks - beforeStep is invoked
+17:17:10.231 [main] DEBUG java.lang.Class - User not able to login
+17:17:11.575 [main] DEBUG Hooks.Hooks - Afterstep is invoked
+17:17:11.622 [main] DEBUG Hooks.BaseTest - endReports method
