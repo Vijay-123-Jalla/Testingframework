@@ -25,8 +25,8 @@ public class Base {
 			 options.addArguments("--headless=new");
 			 options.addArguments("--no-sandbox");
 			 options.addArguments("--disable-dev-shm-usage");
-			 WebDriverManager.chromedriver().setup();
-	            driver = new ChromeDriver();
+			 WebDriverManager.chromedriver().clearDriverCache().setup();
+	            driver = new ChromeDriver(options);
 	        } 
 		 else if (browserName.equalsIgnoreCase("firefox")) 
 		 {
